@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: admin-kotlin
+  config:
+    import: optional:file:.env[.properties]
+  security:
+    user:
+      name: ${SPRING_ADMIN_USER}
+      password: ${SPRING_ADMIN_PASSWORD}
+server:
+  port: 5004
