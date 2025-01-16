@@ -1,6 +1,6 @@
 val kotlinVer: String by project // 2.1.0
-val springBootStarterVer: String by project // 3.3.1-SNAPSHOT
 val jacksonKotlinVer: String by project // 2.18.2
+val springBootStarterVer: String by project // 3.4.2-SNAPSHOT
 val springAdminVer: String by project // 3.4.1
 val junitVer: String by project // 1.11.0-M2
 
