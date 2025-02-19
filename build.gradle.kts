@@ -1,13 +1,13 @@
 val kotlinVer: String by project // 2.1.0
 val jacksonKotlinVer: String by project // 2.18.2
-val springBootStarterVer: String by project // 3.4.2-SNAPSHOT
+val springBootStarterVer: String by project // 3.4.2
 val springAdminVer: String by project // 3.4.1
 val junitVer: String by project // 1.11.0-M2
 
 plugins {
     kotlin("jvm") version "2.1.0"
     kotlin("plugin.spring") version "2.1.0"
-    id("org.springframework.boot") version "3.4.2-SNAPSHOT"
+    id("org.springframework.boot") version "3.4.2"
     id("io.spring.dependency-management") version "1.1.7"
 }
 
